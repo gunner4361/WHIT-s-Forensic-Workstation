@@ -1,0 +1,75 @@
+Artifact,Tool,Location,version,download method,Install Method,zip-url
+Forensics,AIM,https://arsenalrecon.com/downloads,Arsenal-Image-Mounter-v3.12.331.zip,whit-DL-FT-urls,App Install,https://mega.nz/file/zkxRCYjL#vbHEgZdFtLoIYNVvZNBID3cp642YOJO5SXH5atMhQ4I
+Imaging,FTK,http://accessdata.com/support/adownloads#FTKImager,FTK Imager Pro 8.2 SP1,whit-DL-FT-urls,App Install,https://d1kpmuwb7gvu1i.cloudfront.net/Special/ImagerPro/FTK%20Imager%208.2.0_SP1.iso
+Util,OSFMount,https://www.osforensics.com/products/index.php,osfmount.exe,whit-DL-FT-urls,App Install,https://www.osforensics.com/downloads/osfmount.exe
+Forensics,CDQR,https://github.com/orlikoski/CDQR/releases/tag/20191226,CDQR 20191226  cdqr.exe,whit-DL-FT-urls,exe,https://github.com/orlikoski/CDQR/releases/download/20191226/cdqr.exe
+Triage,Velociraptor,https://docs.velociraptor.app/downloads/,velociraptor-v0.75.5-windows-amd64.exe,whit-DL-FT-urls,ZIP,https://github.com/Velocidex/velociraptor/archive/refs/heads/master.zip
+Live CD,CAINE,http://www.caine-live.net/,,manual,ISO,
+Live CD,SIFT,http://computer-forensics.sans.org/community/downloads,,manual,ISO,
+Live CD,PALADIN,https://sumuri.com/software/paladin/,paladin-9.2.1.lts-amd64-build-3040-2025.10.28.zip,manual,ISO,MD5: d9f5141bf668bef7d11143af0baed93c
+Registry,Fred, https://www.sits.lu/fred,,manual,linux,
+Util,Nirsoft tools,https://launcher.nirsoft.net/downloads/index.html,nirsoft_package_enc_1.30.21.zip,,NirLauncher ,
+EZ,Eric Zimmermans Tools,https://ericzimmerman.github.io/#!index.md,Get-ZimmermanTools.zip,manual,PS,
+Forensics,BMC tool for RDP,https://github.com/gunner4361/bmc-tools,bmc-tools-master.zip,whit-DL-FT-from-gh,ZIP,
+Memory,Volatility,https://github.com/volatilityfoundation/volatility3,Volatility 2.6,whit-DL-FT-urls,python,
+Memory,Volatility,https://github.com/volatilityfoundation/volatility3,Volatility 3 2.26.2,,Python,
+UAL,KStrike,https://github.com/gunner4361/KStrike,KStrike-master.zip,,python,
+USNJ,Usnjrnl Rewind,https://github.com/gunner4361/usnjrnl_rewind,usnjrnl_rewind-main.zip,,python,
+Imaging,DD,http://www.chrysocome.net/download,dd-0.6beta3.zip,whit-DL-FT-urls,Stored for Client use,http://www.chrysocome.net/downloads/dd-0.3.zip
+Imaging,dc3dd,https://sourceforge.net/projects/dc3dd/files/dc3dd/7.2%20-%20Windows/,dc3dd-windows-64bit-7-2-641.zip,whit-DL-FT-urls,Stored for Client use,
+Memory,DumpIT,Magnet,Comae-Toolkit-v20230117.zip,manual,Stored for Client use,
+Memory,Pmem,https://github.com/Velocidex/WinPmem/,winpmem_mini_x64_rc2.exe,whit-DL-FT-urls,Stored for Client use,
+Triage,CYLR,https://github.com/orlikoski/CyLR/releases/tag/2.2.0,CyLR 3.0,whit-DL-FT-urls,Stored for Client use,https://github.com/orlikoski/CyLR/releases/download/2.2.0/CyLR_win-x64.zip
+Triage,UAC Unix Like Artifac collector,https://github.com/tclahr/uac,uac-3.2.0.tar.gz,whit-DL-FT-urls,Stored for Client use,
+Util,dngrep,https://github.com/gunner4361/dnGrep,dnGrep-master.zip,winget,winget install -e --id dnGrep.dnGrep,
+Util,Git,https://git-scm.com/install/,Git-2.52.0-64-bit.exe,winget,winget install -e --id Git.Git,
+Util ,Greenshot,https://getgreenshot.org/,Greenshot-INSTALLER-1.3.304-RELEASE.exe,winget,winget install -e --id Greenshot.Greenshot,
+network,nmap,https://nmap.org/download,nmap-7.98-setup.exe,manual,winget install -e --id Insecure.Nmap,https://nmap.org/dist/nmap-7.98-setup.exe
+network,putty,https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html,putty-64bit-0.83-installer.msi,winget,winget install -e --id PuTTY.PuTTY,
+Forensics,Autopsy,http://www.autopsy.com/,autopsy-4.22.1-64bit.msi,,winget install -e --id SleuthKit.Autopsy,
+Util,Ventoy,https://github.com/ventoy/Ventoy,ventoy-1.1.07-windows.zip,,winget install -e --id ventoy.Ventoy,
+Util,7zip, https://github.com/ip7z/7zip,7z2501-x64.exe,,Winget install -e 7-Zip,
+Util,Microsoft.PowerToys,https://learn.microsoft.com/en-us/windows/powertoys/,PowerToysSetup-0.96.1-x64.exe,,winget install Microsoft.PowerToys --source winget,
+Util,Microsoft.Sysinternals.Suite,https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite,SysinternalsSuite.zip,,winget install Suite Microsoft.Sysinternals.Suite,
+Event Logs,Hayabusa,https://github.com/Yamato-Security/hayabusa,hayabusa-main.zip,whit-DL-FT-urls,zip, https://github.com/Yamato-Security/hayabusa/archive/refs/heads/main.zip
+Event Logs,Takajo,https://github.com/Yamato-Security/takajo,takajo-2.14.0-win-x64.zip,whit-DL-FT-urls,zip,https://github.com/Yamato-Security/takajo/archive/refs/heads/main.zip
+Event Logs,Chainsaw,https://github.com/WithSecureLabs/chainsaw?tab=readme-ov-file#srum-system-resource-usage-monitor,chainsaw_x86_64-pc-windows-msvc.zip,whit-DL-FT-from-gh,zip, https://github.com/WithSecureLabs/chainsaw/archive/refs/heads/master.zip
+Forensic,Didier Stevens Suite,https://didierstevens.com/files/software/DidierStevensSuite.zip,DidierStevensSuite.zip,whit-DL-FT-from-gh,Zip,
+Forensics,RdpCacheStitcher,https://github.com/BSI-Bund/RdpCacheStitcher/releases/tag/v1.1,RdpCacheStitcher-v1.1-win64.zip,whit-DL-FT-from-gh,zip,https://github.com/BSI-Bund/RdpCacheStitcher/releases/download/v1.1/RdpCacheStitcher-v1.1-win64.zip
+Forensics,SqliteExaminer,https://www.foxtonforensics.com/free-tools,SqliteExaminer_v1.1.0.zip,manual,zip,https://www.foxtonforensics.com/download.aspx?Id=ede5fa01541849dcb4d025aa9992ebf2
+Malware,Yara,https://github.com/virustotal/yara,yara-4.5.5-2368-win64.zip,whit-DL-FT-from-gh,zip,https://github.com/VirusTotal/yara/archive/refs/heads/master.zip
+Malware,CYBER Chef,https://gchq.github.io/CyberChef/,CyberChef_v10.19.4.zip,whit-DL-FT-urls,zip,https://gchq.github.io/CyberChef/CyberChef_v10.19.4.zip
+Network,Network Minor,https://www.netresec.com/?page=NetworkMiner#networkminer-download,NetworkMiner_3-0.zip,whit-DL-FT-urls,ZIP, https://download.netresec.com/networkminer/NetworkMiner_3-1.zip
+network,tftpd64,https://github.com/gunner4361/tftpd64, tftpd64_portable_v4.74.zip,whit-DL-FT-from-gh,ZIP,https://github.com/gunner4361/tftpd64/blob/master/releases/tftpd32_portable_v4.74.zip
+email,XstReader,https://github.com/gunner4361/XstReader,XstReader-master.zip,whit-DL-FT-from-gh,Zip,https://github.com/gunner4361/XstReader/archive/refs/heads/master.zip
+Event Logs,Zircolite,https://github.com/wagga40/Zircolite,zircolite_win_x64_2.40.0.7z,whit-DL-FT-from-gh,Zip,https://github.com/wagga40/Zircolite/archive/refs/heads/master.zip
+Event Logs,EventLook, https://github.com/kmaki565/EventLook,EventLook-bf49885fb5888e20b16b94645c74fee8167c8b0f.zip,whit-DL-FT-urls,Zip,https://github.com/kmaki565/EventLook/archive/refs/heads/master.zip
+Event Logs,DeepBlueCLI,https://github.com/sans-blue-team/DeepBlueCLI,DeepBlueCLI-master.zip,whit-DL-FT-from-gh,Zip,https://github.com/sans-blue-team/DeepBlueCLI/archive/refs/heads/master.zip
+Forensic,TSK,https://www.sleuthkit.org/sleuthkit/download.php,sleuthkit-4.14.0-win32.zip,whit-DL-FT-urls,Zip,https://github.com/sleuthkit/sleuthkit/releases/download/sleuthkit-4.14.0/sleuthkit-4.14.0-win32.zip
+Forensics,RegRIpper+,https://github.com/gunner4361/RegRipper3.0,RegRipper3.0-master.zip,whit-DL-FT-from-gh,Zip,https://github.com/gunner4361/RegRipper3.0/archive/refs/heads/master.zip
+Forensics,FIV, https://github.com/nevaran/FIV?tab=readme-ov-file,FIV.Setup.exe,whit-DL-FT-from-gh,Zip,https://github.com/nevaran/FIV/archive/refs/heads/master.zip
+Forensics,SRUM,https://github.com/markbaggett/srum-dump,srum_dump.exe,whit-DL-FT-from-gh,Zip,https://github.com/MarkBaggett/srum-dump/archive/refs/heads/master.zip
+Forensics,Many,https://github.com/DidierStevens/DidierStevensSuite,DidierStevensSuite-master.zip,whit-DL-FT-from-gh,Zip,https://github.com/DidierStevens/DidierStevensSuite/archive/refs/heads/master.zip
+Malware,PEStudio,https://www.winitor.com/download2,pestudio.zip,manual,Zip,https://www.winitor.com/tools/pestudio/current/pestudio.zip
+Memory,MemProcFS,https://github.com/ufrisk/MemProcFS,Version 5.16   MemProcFS_files_and_binaries-win_x64-latest.zip,whit-DL-FT-urls,Zip,https://github.com/ufrisk/MemProcFS/releases/download/v5.16/MemProcFS_files_and_binaries-win_x64-latest.zip
+Memory,Volatility 2.6,https://github.com/volatilityfoundation/volatility/releases/download/2.6.1/volatility_2.6_win64_standalone.zip,,whit-DL-FT-urls,Zip,https://github.com/volatilityfoundation/volatility/releases/download/2.6.1/volatility_2.6_win64_standalone.zip
+Memory,Volatility 3.0,https://github.com/volatilityfoundation/volatility3,,whit-DL-FT-from-gh,,https://github.com/volatilityfoundation/volatility3/archive/refs/heads/develop.zip
+Network,Network Miner,https://github.com/hatnetsec/NetworkMiner,NetworkMiner-master.zip,whit-DL-FT-from-gh,Zip,https://github.com/hatnetsec/NetworkMiner/archive/refs/heads/master.zip
+Util,Rufus,https://rufus.ie/en/,rufus-4.11p.exe,manual,Zip,
+,REMUX, https://remnux.org/,,manual,ISO,
+,SIFT OVA,https://sansorg.egnyte.com/dl/4VVBRyyhfM36,,manual,Zip,
+,SOF-ELK,https://github.com/philhagen/sof-elk,,manual,Zip,
+,,https://www.sans.org/tools/sift-workstation,,, ,
+,,https://github.com/fox-it/dissect/releases,,,,
+,"glogg - the fast, smart log explorer",https://glogg.bonnefon.org/download.html,,,,
+,,https://github.com/Beercow/DFIR_Toolbar/releases/tag/v2025.10.14,DFIR_Toolbar.zip,,,
+,,https://sourceforge.net/projects/exiftool/files/exiftool-13.42_64.zip/download,exiftool-13.42_64.zip,winget,https://sourceforge.net/projects/exiftool/files/exiftool-13.50_64.zip/download,
+,,https://www.pstwalker.com/download.html,,,,
+,,https://www.lizard-labs.com/download_page.aspx?productcode=elob,EventLogObserverSetup.msi,,,
+,,,,,https://www.nirsoft.net/toolsdownload/credentialsfileview-x64.zip,
+,,,,,https://www.nirsoft.net/utils/browsinghistoryview-x64.zip,
+,FullEventLogView , ,,,https://www.nirsoft.net/utils/fulleventlogview-x64.zip,
+,Microsoft Logparser, https://www.microsoft.com/en-ca/download/details.aspx?id=24659,LogParser.msi,,,
+,Log Parser Lizard,https://www.lizard-labs.com/log_parser_lizard.aspx,LogParserLizardSetup.msi,,,
+,,https://github.com/PoorBillionaire/Windows-Prefetch-Parser,Windows-Prefetch-Parser-master.zip,,zip,
+,,https://github.com/obsidianforensics/hindsight,NEED TO REVIW,,,
