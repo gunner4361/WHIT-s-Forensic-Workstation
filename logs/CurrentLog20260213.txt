@@ -1,1 +1,0 @@
-2026-02-13 13:34:08.335 -05:00 [WRN] Sequence numbers do not match! Hive is dirty and the transaction logs should be reviewed for relevant data!
