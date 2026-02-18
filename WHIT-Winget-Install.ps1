@@ -2,7 +2,7 @@
 # Set execution policy to bypass for the current session to allow script execution
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
 #
-## https://winget.run/search?query=eventlook
+## https://winget.run/
 #
 # Define an array of applications to install
 $appsToInstall = @(
@@ -29,9 +29,7 @@ $appsToInstall = @(
 	"Insecure.Nmap"
 	"WiresharkFoundation.Wireshark"
 	"SleuthKit.Autopsy"
-	##"OliverBetz.ExifTool"
-	"Eventlook"
-)
+	)
 # Loop through the array and install each application
 foreach ($app in $appsToInstall) {
     Write-Host "Attempting to install $app..."

@@ -17,10 +17,9 @@ $repositories = @(
 	"https://github.com/gunner4361/RegRipper3.0/archive/refs/heads/master.zip",
 	"https://github.com/MarkBaggett/srum-dump/archive/refs/heads/master.zip",
 	"https://github.com/DidierStevens/DidierStevensSuite/archive/refs/heads/master.zip",
-	"https://github.com/volatilityfoundation/volatility3/archive/refs/heads/develop.zip"
+	"https://github.com/volatilityfoundation/volatility3/archive/refs/heads/develop.zip",
+	"https://github.com/gunner4361/bmc-tools/archive/refs/heads/master.zip"
 	#"https://github.com/Velocidex/velociraptor/archive/refs/heads/master.zip"
-	
-	
 	
     
 )

@@ -1,5 +1,6 @@
 ﻿Windows Registry Editor Version 5.00
 ; Sources of info - Google :-)
+
 ;https://github.com/valinet/ExplorerPatcher/issues/9
 ; https://github.com/Raphire/Win11Debloat/blob/master/Regfiles/Combine_MMTaskbar_Never.reg
 ;
@@ -8,7 +9,7 @@
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
 "Hidden"=dword:00000001
 
-; Start File Explorer on this PC
+; Start File Explorer on "This PC"
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
 "LaunchTo"=dword:00000001
 
@@ -17,19 +18,20 @@
 "TaskbarAl"=dword:00000000
 ;
 ﻿; Disable Telementry
-; Let Apps use Advertising ID for Relevant Ads in Windows 10
+; Disable Advertising for current user
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\AdvertisingInfo]
 "Enabled"=dword:00000000
 
-; Tailored experiences with diagnostic data for Current User
+
+; Disable Tailored experiences with diagnostic data for Current User
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Privacy]
 "TailoredExperiencesWithDiagnosticDataEnabled"=dword:00000000
 
-; Online Speech Recognition
+; Disable Online Speech Recognition
 [HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Settings\OnlineSpeechPrivacy]
 "HasAccepted"=dword:00000000
 
-; Improve Inking & Typing Recognition
+; Disable - Improve Inking & Typing Recognition
 [HKEY_CURRENT_USER\Software\Microsoft\Input\TIPC]
 "Enabled"=dword:00000000
 
@@ -44,7 +46,7 @@
 [HKEY_CURRENT_USER\Software\Microsoft\Personalization\Settings]
 "AcceptedPrivacyPolicy"=dword:00000000
 
-; Send only Required Diagnostic and Usage Data
+; disables "Tailored Experiences" (personalized tips, ads, and recommendations)
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\DataCollection]
 "AllowTelemetry"=dword:00000000
 
@@ -91,7 +93,8 @@ reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\
 ;Restore new context menu:
 ;;reg.exe delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f
 
-;Disable Fast Start-up Option 
+;Disable Fast Start-up Windows (10/11), forcing a full shutdown instead of a hybrid hibernation state
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power]
 "HiberbootEnabled"=dword:00000000
+
 
