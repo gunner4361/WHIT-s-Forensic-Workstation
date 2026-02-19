@@ -27,7 +27,6 @@ $appsToInstall = @(
 	"IrfanSkiljan.IrfanView"
     "dnGrep.dnGrep"
 	"Insecure.Nmap"
-	"WiresharkFoundation.Wireshark"
 	"SleuthKit.Autopsy"
 	)
 # Loop through the array and install each application
@@ -40,5 +39,6 @@ foreach ($app in $appsToInstall) {
         Write-Host "Error installing $app. Exit code: $LASTEXITCODE"
     }
 }
+
 
 Write-Host "Installation script complete."
