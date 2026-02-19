@@ -28,6 +28,7 @@ $appsToInstall = @(
     "dnGrep.dnGrep"
 	"Insecure.Nmap"
 	"SleuthKit.Autopsy"
+	"Microsoft.WindowsTerminal"
 	)
 # Loop through the array and install each application
 foreach ($app in $appsToInstall) {
@@ -42,3 +43,4 @@ foreach ($app in $appsToInstall) {
 
 
 Write-Host "Installation script complete."
+
